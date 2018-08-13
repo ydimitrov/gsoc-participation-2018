@@ -520,7 +520,7 @@ using nlohmann::json;
 
 namespace ns {
     void to_json(json& j, const person& p) {
-        j = json{{"name", p.name}, {"address", p.address}, {"age", p.age}};
+        j = json({"name", p.name}, {"address", p.address}, {"age", p.age});
     }
 
     void from_json(const json& j, person& p) {
