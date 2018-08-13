@@ -1,11 +1,3 @@
-	 	 	
-# GSoC 2018 Automotive Grade Linux (AGL)
-# Yordan Dimitrov
-
-
-
-
-
 ## About the project
 
 The tasks that I had while working for the AGL community was to extended an already deployed application as well as develop a full stack application on my own. The first application that I had to extend was an automotive HVAC control dashboard to add an LED functionality. The next task that I was given was to construct a Task Manager application that would display all of the processes currently running on a target board (Raspberry Pie). This consisted of 2 subtasks: developing a backend service that would collect the needed information and a frontend to display the information in a user friendly way.
@@ -43,9 +35,12 @@ Another smaller feature that I developed was to allow the use of a configuration
 
 1. Task manager application
 
-1. Architecture
-	
-The structure embodies a three-tier architecture. The leading component of the application is the middleware module which calls the backend service to gather the required information from /proc and distribute it to the frontend. This 	component is also responsible for determining what action needs to be taken for every single process, be it update, add, or remove it from frontend visualization. The diagram below shows the architecture. 
+	1. Architecture
+
+	The structure embodies a three-tier architecture. The leading component of the application is the middleware module 
+	which calls the backend service to gather the required information from /proc and distribute it to the frontend. This
+	component is also responsible for determining what action needs to be taken for every single process, be it update, add, or
+	remove it from frontend visualization. The diagram below shows the architecture. 
 
 
 
