@@ -43,7 +43,7 @@ component is also responsible for determining what action needs to be taken for 
 remove it from frontend visualization. The diagram below shows the architecture. 
 
 ![Application Architecture]
-(https://github.com/ydimitrov/gsoc-participation-2018/blob/master/images/architecture2.png)
+(https://drive.google.com/open?id=1mx5L8ACtU4FVtSQBMhL1i6P0hrtIDNWf)
 
 ##### 2.2. Task manager service
 
