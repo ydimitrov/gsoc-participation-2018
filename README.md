@@ -100,9 +100,9 @@ The frontend part of the application is responsible for creating the binding (mi
 ### Future work
 
 In terms of my participation in the GSoC program and working with the AGL community, there are some tasks which I could not begin due to time constraints. As future work I identify starting work on the tasks in question some of which are:
-Extending the functionality of the Task manager to kill/start applications from the UI
-Developing a console application for the AGL framework.
-Implementing a CAN Monitor application that uses the existing CAN APIs.
+* Extending the functionality of the Task manager to kill/start applications from the UI
+* Developing a console application for the AGL framework.
+* Implementing a CAN Monitor application that uses the existing CAN APIs.
 
 ### Acknowledgements
 
