@@ -1,0 +1,33 @@
+executing config test libhomescreen
++ cd /home/yordan/workspace_agl_coding/hvac/app/config.tests/libhomescreen && /opt/poky-agl/5.0.3/sysroots/x86_64-aglsdk-linux/usr/bin/qt5/qmake  -spec /opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" /home/yordan/workspace_agl_coding/hvac/app/config.tests/libhomescreen
+> Info: creating stash file /home/yordan/workspace_agl_coding/hvac/app/.qmake.stash
+> Project MESSAGE: PKG_CONFIG_LIBDIR automatically set to /opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/lib/pkgconfig:/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/share/pkgconfig
++ cd /home/yordan/workspace_agl_coding/hvac/app/config.tests/libhomescreen && MAKEFLAGS= make 
+> make[1]: Entering directory '/home/yordan/workspace_agl_coding/hvac/app/config.tests/libhomescreen'
+> arm-agl-linux-gnueabi-g++  -march=armv7ve -marm -mfpu=neon-vfpv4  -mfloat-abi=hard --sysroot=/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi -c -pipe --sysroot=/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi -O2 -Wall -W -fPIC  -I. -isystem /opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/include/json-c -I/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++ -o libhomescreen.o libhomescreen.cpp
+> libhomescreen.cpp: In function ‘int main(int, char**)’:
+> libhomescreen.cpp:3:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+>  int main(int argc,char **argv)
+>               ^~~~
+> libhomescreen.cpp:3:26: warning: unused parameter ‘argv’ [-Wunused-parameter]
+>  int main(int argc,char **argv)
+>                           ^~~~
+> arm-agl-linux-gnueabi-g++  -march=armv7ve -marm -mfpu=neon-vfpv4  -mfloat-abi=hard --sysroot=/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi -Wl,-O1 --sysroot=/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi -Wl,-O1 -o libhomescreen libhomescreen.o   -lhomescreen -ljson-c 
+> make[1]: Leaving directory '/home/yordan/workspace_agl_coding/hvac/app/config.tests/libhomescreen'
+test libhomescreen succeeded
+executing config test qlibwindowmanager
++ cd /home/yordan/workspace_agl_coding/hvac/app/config.tests/qlibwindowmanager && /opt/poky-agl/5.0.3/sysroots/x86_64-aglsdk-linux/usr/bin/qt5/qmake  -spec /opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" /home/yordan/workspace_agl_coding/hvac/app/config.tests/qlibwindowmanager
+> Project MESSAGE: PKG_CONFIG_LIBDIR automatically set to /opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/lib/pkgconfig:/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/share/pkgconfig
++ cd /home/yordan/workspace_agl_coding/hvac/app/config.tests/qlibwindowmanager && MAKEFLAGS= make 
+> make[1]: Entering directory '/home/yordan/workspace_agl_coding/hvac/app/config.tests/qlibwindowmanager'
+> arm-agl-linux-gnueabi-g++  -march=armv7ve -marm -mfpu=neon-vfpv4  -mfloat-abi=hard --sysroot=/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi -c -pipe --sysroot=/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi -O2 -D_REENTRANT -Wall -W -fPIC -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -I. -I/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi -isystem /opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/include/json-c -isystem /opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/include/qt5 -isystem /opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/include/qt5/QtGui -isystem /opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/include/qt5/QtCore -I. -I/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++ -o qlibwindowmanager.o qlibwindowmanager.cpp
+> qlibwindowmanager.cpp: In function ‘int main(int, char**)’:
+> qlibwindowmanager.cpp:3:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+>  int main(int argc,char **argv)
+>               ^~~~
+> qlibwindowmanager.cpp:3:26: warning: unused parameter ‘argv’ [-Wunused-parameter]
+>  int main(int argc,char **argv)
+>                           ^~~~
+> arm-agl-linux-gnueabi-g++  -march=armv7ve -marm -mfpu=neon-vfpv4  -mfloat-abi=hard --sysroot=/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi -Wl,-O1 --sysroot=/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi -Wl,-O1 -o qlibwindowmanager qlibwindowmanager.o   -L/opt/poky-agl/5.0.3/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi -lqtWindowmanagerWrapper -lwindowmanager -ljson-c -lQt5Gui -lQt5Core -lGLESv2 -lpthread 
+> make[1]: Leaving directory '/home/yordan/workspace_agl_coding/hvac/app/config.tests/qlibwindowmanager'
+test qlibwindowmanager succeeded

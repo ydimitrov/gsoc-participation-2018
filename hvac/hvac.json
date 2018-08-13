@@ -1,0 +1,7 @@
+{
+	"ledtemp": {
+		"red": "/sys/class/leds/blinkm-3-9-red/brightness",
+		"green": "/sys/class/leds/blinkm-3-9-green/brightness",
+		"blue": "/sys/class/leds/blinkm-3-9-blue/brightness"
+	}
+}
