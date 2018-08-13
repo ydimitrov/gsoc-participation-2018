@@ -1,11 +1,6 @@
 	 	 	
-GSoC 2018 Automotive Grade Linux (AGL)
-Yordan Dimitrov
-
-
-
-
-
+# GSoC 2018 Automotive Grade Linux (AGL)
+# Yordan Dimitrov
 
 
 ## About the project
@@ -28,12 +23,12 @@ As the name suggests, this module is used to control the air conditioning, heati
 Another smaller feature that I developed was to allow the use of a configuration file to input LED path values without having to recompile the entire widget. 
 
 ### Dependencies
-*json-c >= 0.11.99 (for native build)
-*afb-daemon (for native build)
-*cmake (for native build)
-*Qt and QML headers (for native build)
-*In its current compilation setup the widget is only runnable under the AGL framework, hence the above packages would be unnecessary 
-*Raspberry compilation SDK (for target build)
+* json-c >= 0.11.99 (for native build)
+* afb-daemon (for native build)
+* cmake (for native build)
+* Qt and QML headers (for native build)
+* In its current compilation setup the widget is only runnable under the AGL framework, hence the above packages would be unnecessary 
+* Raspberry compilation SDK (for target build)
 	
 ### Compilation
 ```
