@@ -42,7 +42,8 @@ which calls the backend service to gather the required information from /proc an
 component is also responsible for determining what action needs to be taken for every single process, be it update, add, or
 remove it from frontend visualization. The diagram below shows the architecture. 
 
-
+![Application Architecture]
+(gsoc-participation-2018/images/architecture2.png)
 
 ##### 2.2. Task manager service
 
