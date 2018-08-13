@@ -72,7 +72,7 @@ The backend service part of the application is responsible for collecting the in
 
 The frontend part of the application is responsible for creating the binding (middleware) to the service part as well as to display in a user friendly way the information collected from the /proc folder. Each function that is executed in the QML is exposed to the middleware. On the next figure it can be seen how the frontend looks like populated with current processes.
 
-![taskmng](https://user-images.githubusercontent.com/22743465/44034419-ba12eb58-9f15-11e8-8f69-d8afddc90761.png)
+![taskmng](https://user-images.githubusercontent.com/22743465/44036028-8268eff0-9f19-11e8-8622-c3815f46f835.png)
 
 ###### **Dependencies**
 * Qt and QML headers (for native build)
