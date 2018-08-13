@@ -61,6 +61,7 @@ The backend service part of the application is responsible for collecting the in
 ###### **Compilation**
 
 ```
+* mkdir build
 * cd /build
 * cmake ../
 * make
@@ -82,6 +83,7 @@ The frontend part of the application is responsible for creating the binding (mi
 		
 ###### **Compilation**
 ```
+* mkdir build
 * cd /build
 * cmake ../
 * make
